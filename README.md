@@ -146,6 +146,35 @@ If you use these models in your work please cite our paper under review:
   year={}
 }
 ```
+BibTeX:
+```
+@article{DeepWeeds2019,
+  author = {Alex Olsen and
+    Dmitry A. Konovalov and
+    Bronson Philippa and
+    Peter Ridd and
+    Jake C. Wood and
+    Jamie Johns and
+    Wesley Banks and
+    Benjamin Girgenti and
+    Owen Kenny and 
+    James Whinney and
+    Brendan Calvert and
+    Mostafa {Rahimi Azghadi} and
+    Ronald D. White},
+  title = {{DeepWeeds: A Multiclass Weed Species Image Dataset for Deep Learning}},
+  journal = {Scientific Reports},
+  year = 2019,
+  number = 2058,
+  month = 2,
+  volume = 9,
+  issue = 1,
+  day = 14,
+  url = "https://doi.org/10.1038/s41598-018-38343-3",
+  doi = "10.1038/s41598-018-38343-3"
+}
+
+```
 
 ## 👏 Acknowledgments
 
