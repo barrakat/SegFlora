@@ -11,11 +11,10 @@
 </div>
 
 <p align="center">
-<img src="https://github.com/barrakat/NOVA/blob/main/Figures/logo.PNG" width="300" />
+<img src="https://github.com/barrakat/SegFlora/tree/main/figures/logo.PNG" width="300" />
 </p>
 </div> 
 
-<a href="https://www.vecteezy.com/free-vector/valentine">Valentine Vectors by Vecteezy</a>
 ---
 
 ## 📒 Project Structure
