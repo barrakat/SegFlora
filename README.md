@@ -1,7 +1,7 @@
 <div align="center">
 <h2>Remote sensing of segetal flora in arable fields using off-the-shelf UAV-based imagery and deep learning for result-based payments</h2>
 
-[**Caterina Barrasso**]<sup>1,2</sup> · [**Robert Krüger**]<sup>3</sup> · [**Anette Eltner**]<sup>3</sup> · [**Anna Cord**]<sup>1,2,4</sup>
+**Caterina Barrasso**<sup>1,2</sup> · **Robert Krüger**<sup>3</sup> · **Anette Eltner**<sup>3</sup> · **Anna Cord**<sup>1,2,4</sup>
 
 <sup>1</sup>Chair of Computational Landscape Ecology, TUD;&emsp;&emsp;&emsp;<sup>2</sup>ScaDS.AI;&emsp;&emsp;&emsp;
 <sup>3</sup>Geosensor Systems Group, TUD;&emsp;&emsp;&emsp;<sup>4</sup>University of Bonn
