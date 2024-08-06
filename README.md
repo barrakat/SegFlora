@@ -1,7 +1,7 @@
 <div align="center">
-<h2>Seeing the Roads Through the Trees: A Benchmark for Modeling Spatial Dependencies with Aerial Imagery</h2>
+<h2>Remote sensing of segetal flora in arable fields using off-the-shelf UAV-based imagery and deep learning for result-based payments</h2>
 
-[**Caleb Robinson**](https://www.microsoft.com/en-us/research/people/davrob/)<sup>1</sup> · [**Isaac Corley**](https://isaacc.dev/)<sup>2</sup> · [**Anthony Ortiz**](https://www.microsoft.com/en-us/research/people/anort/)<sup>1</sup> · [**Rahul Dodhia**](https://www.microsoft.com/en-us/research/people/radodhia/)<sup>1</sup> · [**Juan M. Lavista Ferres**](https://www.microsoft.com/en-us/research/people/jlavista/)<sup>1</sup> · [**Peyman Najafirad (Paul Rad)**](https://scholar.google.com/citations?user=uoCn8c8AAAAJ&hl=en)<sup>2</sup>
+[**Caterina Barrasso**](https://www.microsoft.com/en-us/research/people/davrob/)<sup>1,2</sup> · [**Robert Krüger**](https://isaacc.dev/)<sup>3</sup> · [**Anette Eltner**](https://www.microsoft.com/en-us/research/people/anort/)<sup>3</sup> · [**Anna Cord**](https://www.microsoft.com/en-us/research/people/radodhia/)<sup>1,2,4</sup>
 
 <sup>1</sup>Microsoft AI for Good Research Lab&emsp;&emsp;&emsp;&emsp;<sup>2</sup>University of Texas at San Antonio
 
