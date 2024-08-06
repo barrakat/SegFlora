@@ -18,7 +18,7 @@
 ---
 
 ## 📒 Project Structure
-[📍 Overview](#-overview)
+[📍 About](#-about)
 [🧪 Running Tests](#-running-tests)
 [💻 Results](#-results)
 [🗺 Discussion](#-discussion)
@@ -27,7 +27,7 @@
 ---
 
 
-## 📍 Overview
+## 📍 About
 
 In this project, I am comparing the performance of the best-trained tree seedling detector in Norway. I am using my own labeled instances (530 in total, shown as red quadrants in Figure 1A) extracted from 82 tiled orthomosaics, each measuring 10 meters. These results are being compared against the full instances labeled by the entire class group (5074 in total, shown as blue quadrants in Figure 1A) from 3065 tiled orthomosaics of the same size (Figure 1C).
 
@@ -164,7 +164,7 @@ By implementing these suggested improvements, it is anticipated that the overall
 
 ## Citation
 
-If you use these models in your work please cite our paper under review:
+How to cite this work:
 
 ```
 @article{barrasso2024,
