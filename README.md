@@ -11,7 +11,7 @@
 </div>
 
 <p align="center">
-<img src="https://github.com/barrakat/SegFlora/figures/logo.png" width="300" />
+<img src="https://github.com/barrakat/SegFlora/blob/main/figures/logo.png" width="300" />
 </p>
 </div> 
 
