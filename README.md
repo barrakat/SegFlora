@@ -44,6 +44,36 @@ I trained two different models for each instance group, as explained in the "Run
 
 ## 🧪 Running tests
 
+We provide a `train.py` script for reproducing experiments in the paper.
+
+```bash
+usage: train.py [-h] [--batch_size BATCH_SIZE] [--model {deeplabv3+,fcn,custom_fcn,unet,unet++}] [--num_epochs NUM_EPOCHS]
+                [--num_filters NUM_FILTERS]
+                [--backbone {resnet18,resnet34,resnet50,resnet101,resnet152,resnext50_32x4d,resnext101_32x8d}] [--lr LR] [--tmax TMAX]
+                [--experiment_name EXPERIMENT_NAME] [--gpu_id GPU_ID] [--root_dir ROOT_DIR]
+
+Train a semantic segmentation model.
+
+options:
+  -h, --help            show this help message and exit
+  --batch_size BATCH_SIZE
+                        Size of each mini-batch.
+  --model {deeplabv3+,fcn,custom_fcn,unet,unet++}
+                        Model architecture to use.
+  --num_epochs NUM_EPOCHS
+                        Number of epochs to train for.
+  --num_filters NUM_FILTERS
+                        Number of filters to use with FCN models.
+  --backbone {resnet18,resnet34,resnet50,resnet101,resnet152,resnext50_32x4d,resnext101_32x8d}
+                        Backbone architecture to use.
+  --lr LR               Learning rate to use for training.
+  --tmax TMAX           Cycle size for cosine lr scheudler.
+  --experiment_name EXPERIMENT_NAME
+                        Name of the experiment to run.
+  --gpu_id GPU_ID       GPU ID to use (defaults to all GPUs if none).
+  --root_dir ROOT_DIR   Root directory of the dataset.
+```
+
 Code in folder [here](https://github.com/barrakat/NOVA/blob/main/Code).
 
 |Model|Description|
@@ -103,6 +133,17 @@ By implementing these suggested improvements, it is anticipated that the overall
 </pre> 
 
 ---
+
+## Citation
+
+```
+@article{barrasso2024,
+  title={Remote sensing of segetal flora in arable fields using off-the-shelf UAV-based imagery and deep learning for result-based payments},
+  author={Caterina Barrasso, Robert Krüger, Anette Eltner, Anna F. Cord},
+  journal={under review in: Remote Sensing in Ecology and Conservation},
+  year={}
+}
+```
 
 ## 👏 Acknowledgments
 
