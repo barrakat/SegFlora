@@ -3,8 +3,8 @@
 
 [**Caterina Barrasso**](https://www.microsoft.com/en-us/research/people/davrob/)<sup>1,2</sup> · [**Robert Krüger**](https://isaacc.dev/)<sup>3</sup> · [**Anette Eltner**](https://www.microsoft.com/en-us/research/people/anort/)<sup>3</sup> · [**Anna Cord**](https://www.microsoft.com/en-us/research/people/radodhia/)<sup>1,2,4</sup>
 
-<sup>1</sup>Chair of Computational Landscape Ecology, Institute of Geography, TUD Dresden University of Technology;<sup>2</sup>Center for Scalable Data Analytics and Artificial Intelligence (ScaDS.AI) Dresden/Leipzig;
-<sup>3</sup>Geosensor Systems Group, Institute of Photogrammetry and Remote Sensing, TUD Dresden University of Technology;<sup>4</sup>Agro-Ecological Modelling Group, Institute of Crop Science and Resource Conservation, University of Bonn
+<sup>1</sup>Chair of Computational Landscape Ecology, Institute of Geography, TUD Dresden University of Technology;&emsp;&emsp;&emsp;<sup>2</sup>Center for Scalable Data Analytics and Artificial Intelligence (ScaDS.AI) Dresden/Leipzig;&emsp;&emsp;&emsp;
+<sup>3</sup>Geosensor Systems Group, Institute of Photogrammetry and Remote Sensing, TUD Dresden University of Technology;&emsp;&emsp;&emsp;<sup>4</sup>Agro-Ecological Modelling Group, Institute of Crop Science and Resource Conservation, University of Bonn
 
 <a href="https://arxiv.org/abs/2401.06762"><img src='https://img.shields.io/badge/arXiv-Seeing%20the%20Roads%20Through%20the%20Trees-red' alt='Paper PDF'></a>
 <a href='https://huggingface.co/datasets/torchgeo/ChesapeakeRSC/'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-ChesapeakeRSC%20Dataset-yellow'></a>
