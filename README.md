@@ -11,7 +11,7 @@
 </div>
 
 <p align="center">
-<img src="https://github.com/barrakat/NOVA/blob/main/Figures/Capture.PNG" width="300" />
+<img src="https://github.com/barrakat/NOVA/blob/main/Figures/logo.PNG" width="300" />
 </p>
 </div> 
 
