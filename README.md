@@ -1,7 +1,7 @@
 <div align="center">
 <h2>Remote sensing of segetal flora in arable fields using off-the-shelf UAV-based imagery and deep learning for result-based payments</h2>
 
-[**Caterina Barrasso**](https://www.microsoft.com/en-us/research/people/davrob/)<sup>1,2</sup> · [**Robert Krüger**](https://isaacc.dev/)<sup>3</sup> · [**Anette Eltner**](https://www.microsoft.com/en-us/research/people/anort/)<sup>3</sup> · [**Anna Cord**](https://www.microsoft.com/en-us/research/people/radodhia/)<sup>1,2,4</sup>
+[**Caterina Barrasso**](https://cle.geo.tu-dresden.de/index.php/caterina-barrasso/)<sup>1,2</sup> · [**Robert Krüger**](https://tu-dresden.de/bu/umwelt/geo/ipf/geosensorsysteme/die-professur/beschaeftigte/)<sup>3</sup> · [**Anette Eltner**](https://tu-dresden.de/bu/umwelt/geo/ipf/geosensorsysteme/die-professur/Anette_Eltner/)<sup>3</sup> · [**Anna Cord**](https://www.inres.uni-bonn.de/de/inres/kontakt/professoren/anna-cord/)<sup>1,2,4</sup>
 
 <sup>1</sup>Chair of Computational Landscape Ecology, TUD;&emsp;&emsp;&emsp;<sup>2</sup>ScaDS.AI;&emsp;&emsp;&emsp;
 <sup>3</sup>Geosensor Systems Group, TUD;&emsp;&emsp;&emsp;<sup>4</sup>University of Bonn
