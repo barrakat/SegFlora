@@ -106,6 +106,6 @@ By implementing these suggested improvements, it is anticipated that the overall
 
 ## 👏 Acknowledgments
 
-> - `ℹ️  I am grateful to Stefano Puliti for his invaluable teaching and expertise in the field of forestry and deep learning. Additionally, I would like to express my gratitude to Hans Ole Ørka, the instructors of the NOVA course, and all the wonderful individuals I had the pleasure of meeting during my time in Ås.`
+> - `ℹ️  This work was supported by the German Federal Ministry of Education and Research (BMBF, SCADS22B) and the Saxon State Ministry for Science, Culture and Tourism (SMWK) by funding the competence center for Big Data and AI “ScaDS.AI Dresden/Leipzig”. The work was also partly funded by the Horizon European project Earth Bridge (ID: 101079310) and by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) under Germany’s Excellence Strategy – EXC 2070 – 390732324. The authors gratefully acknowledge the GWK support for funding this project by providing computing time through the Center for Information Services and HPC (ZIH) at TU Dresden. We thank the UNESCO biosphere reserve “Upper Lusatian Health and Pond Landscape” and the agricultural cooperative “Heidefarm Sdier eG” who allowed us to collect the data for this study. We further thank others who have helped in the data collection and labelling of the images, in particular Sophia Lewitz, Bela Rehnen, Stephanie Roilo, Anja Steingrobe.`
 
 ---
