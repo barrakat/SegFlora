@@ -9,6 +9,7 @@
 <a href="https://arxiv.org/abs/2401.06762"><img src='https://img.shields.io/badge/arXiv-Seeing%20the%20Roads%20Through%20the%20Trees-red' alt='Paper PDF'></a>
 <a href='https://huggingface.co/datasets/torchgeo/ChesapeakeRSC/'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-ChesapeakeRSC%20Dataset-yellow'></a>
 </div>
+[![DOI](https://zenodo.org/badge/639127835.svg)](https://zenodo.org/doi/10.5281/zenodo.13325668)
 
 <p align="center">
 <img src="https://github.com/barrakat/SegFlora/blob/main/figures/logo.png" width="900"/>
