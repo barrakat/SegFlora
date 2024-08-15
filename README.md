@@ -8,9 +8,8 @@
 
 [![DOI](https://zenodo.org/badge/639127835.svg)](https://zenodo.org/doi/10.5281/zenodo.13325668)
 </div>
-
 <p align="center">
-<img src="https://github.com/barrakat/SegFlora/blob/main/figures/logo.png" width="900"/>
+<img src="https://github.com/barrakat/SegFlora/blob/main/figures/logo.png" width="600"/>
 </p>
 </div> 
 
