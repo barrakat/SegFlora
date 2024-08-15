@@ -9,7 +9,7 @@
 [![DOI](https://zenodo.org/badge/639127835.svg)](https://zenodo.org/doi/10.5281/zenodo.13325668)
 </div>
 <p align="center">
-<img src="https://github.com/barrakat/SegFlora/blob/main/figures/logo.png" width="600"/>
+<img src="https://github.com/barrakat/SegFlora/blob/main/figures/logo.png" width="800"/>
 </p>
 </div> 
 
@@ -25,7 +25,7 @@
 ---
 
 ## 📘 About
-In this project, I am comparing the performance of the best-trained tree seedling detector in Norway. I am using my own labeled instances (530 in total, shown as red quadrants in Figure 1A) extracted from 82 tiled orthomosaics, each measuring 10 meters. These results are being compared against the full instances labeled by the entire class group (5074 in total, shown as blue quadrants in Figure 1A) from 3065 tiled orthomosaics of the same size (Figure 1C).
+This repository contains code to reproduce the analyses of the publication "Remote sensing of segetal flora in arable fields using off-the-shelf UAV-based imagery and deep learning for result-based payments" where we conducted multiple UAV flights in an arable area in the East of Germany with winter barley grown as main crop under different management intensities. Our goal was to develop an affordable monitoring system for mapping and conservation of segetal flora using an off-the-shelf UAV-based RGB camera and the YOLO deep learning architecture. Data and trained YOLO models per species can be found in [zenodo](https://zenodo.org/doi/10.5281/zenodo.13325668/)
 
 <pre>
 <figure>
@@ -33,8 +33,6 @@ In this project, I am comparing the performance of the best-trained tree seedlin
 <ins><figcaption>Figure 1</figcaption></ins>
 <figure>
 </pre> 
-
-I trained two different models for each instance group, as explained in the "Running Tests" section below. Subsequently, I discuss the performance results obtained in four specific areas in Norway (depicted in Figure 1B). These results are elaborated upon in the "Results" section below.
 
 ---
 
