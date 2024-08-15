@@ -16,7 +16,7 @@
 
 ---
 
-# 📒 Project Structure
+## 📒 Project Structure
 [📍 About](#-about)
 [🧪 Running Tests](#-running-tests)
 [💻 Results](#-results)
