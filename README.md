@@ -59,14 +59,14 @@ image_30m = "https://github.com/barrakat/SegFlora/blob/main/figures/plot_26_flig
 
 And here the output results for one test plot:
 <p align="center">
-    <img src="https://github.com/barrakat/SegFlora/blob/main/figures/Figure_3.png" width="500"/><br/>
+    <img src="https://github.com/barrakat/SegFlora/blob/main/figures/Figure_2.png" width="500"/><br/>
 </p>
 
 
 The models were trained on the number of instances per species shown below:
 
 <p align="center">
-    <img src="https://github.com/barrakat/SegFlora/blob/main/figures/Figure_2.png" width="500"/><br/>
+    <img src="https://github.com/barrakat/SegFlora/blob/main/figures/Figure_3.png" width="500"/><br/>
 </p>
 
 ---
