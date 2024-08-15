@@ -35,41 +35,10 @@ This repository contains code to reproduce the analyses of the publication *"Rem
 
 ## 💻 Inference
 
-We provide a `train.py` script for reproducing experiments in the paper.
-
-```bash
-usage: train.py [-h] [--batch_size BATCH_SIZE] [--model {deeplabv3+,fcn,custom_fcn,unet,unet++}] [--num_epochs NUM_EPOCHS]
-                [--num_filters NUM_FILTERS]
-                [--backbone {resnet18,resnet34,resnet50,resnet101,resnet152,resnext50_32x4d,resnext101_32x8d}] [--lr LR] [--tmax TMAX]
-                [--experiment_name EXPERIMENT_NAME] [--gpu_id GPU_ID] [--root_dir ROOT_DIR]
-
-Train a semantic segmentation model.
-
-options:
-  -h, --help            show this help message and exit
-  --batch_size BATCH_SIZE
-                        Size of each mini-batch.
-  --model {deeplabv3+,fcn,custom_fcn,unet,unet++}
-                        Model architecture to use.
-  --num_epochs NUM_EPOCHS
-                        Number of epochs to train for.
-  --num_filters NUM_FILTERS
-                        Number of filters to use with FCN models.
-  --backbone {resnet18,resnet34,resnet50,resnet101,resnet152,resnext50_32x4d,resnext101_32x8d}
-                        Backbone architecture to use.
-  --lr LR               Learning rate to use for training.
-  --tmax TMAX           Cycle size for cosine lr scheudler.
-  --experiment_name EXPERIMENT_NAME
-                        Name of the experiment to run.
-  --gpu_id GPU_ID       GPU ID to use (defaults to all GPUs if none).
-  --root_dir ROOT_DIR   Root directory of the dataset.
-```
-
-Code in folder [here](https://github.com/barrakat/NOVA/blob/main/Code).
+The `Centaurea_cyanus_prediction.py` script in [here](https://github.com/barrakat/SegFlora/blob/main/code), for example, can be used to produce instance segmentation of *"Centaurea cyanus*" on UAV-based RGB images of ground sampling distance 1.22-4.88 mm. 
 
 ```python
 from urllib import request
-
 import detectree as dtr
 import matplotlib.pyplot as plt
 import rasterio as rio
@@ -95,7 +64,7 @@ with rio.open(tile_filename) as src:
 axes[1].imshow(y_pred)
 ```
 
-|Model|Description|
+|Species|mIoU|
 | --------- | ------- |
 | YOLOv8_nano_img640 | 300 epochs, 640 image size on my own instances |
 | YOLOv8_nano_img1024 | 100 epochs, 1024 image size on my own instances |
