@@ -13,6 +13,7 @@
 </p>
 </div> 
 
+</div>
 ---
 [📘 About](#-about)
 [💻 Inference](#-inference)
@@ -20,6 +21,7 @@
 [👏 Acknowledgments](#-acknowledgments)
 [📝 Citation](#-citation)
 ---
+</div> 
 
 ## 📘 About
 This repository contains code to reproduce the analyses of the publication *"Remote sensing of segetal flora in arable fields using off-the-shelf UAV-based imagery and deep learning for result-based payments*", where we conducted multiple UAV flights in an arable area in the eastern Germany with winter barley grown as the main crop under different management intensities. Our goal was to develop an affordable monitoring system for the mapping and conservation of segetal flora using an off-the-shelf UAV-based RGB camera and the YOLO deep learning architecture. Data and trained YOLO models per species can be found in [zenodo](https://zenodo.org/doi/10.5281/zenodo.13325668/).
