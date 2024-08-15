@@ -15,14 +15,12 @@
 </div> 
 
 ---
-<h2>
-## 📒 Project Structure
+## Project Structure
 [📍 About](#-about)
-[🧪 Running Tests](#-running-tests)
+[🧪 Inference](#-inference)
 [💻 Results](#-results)
-[🗺 Discussion](#-discussion)
 [👏 Acknowledgments](#-acknowledgments)
-</h2>
+[👏 Citation](#-citation)
 ---
 
 
