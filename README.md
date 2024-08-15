@@ -63,6 +63,15 @@ with rio.open(tile_filename) as src:
     plot.show(src, ax=axes[0])
 axes[1].imshow(y_pred)
 ```
+The models were trained on the number of instances per species shown below:
+
+<p align="center">
+    <img src="https://github.com/barrakat/SegFlora/blob/main/figures/Figure_2.png" width="800"/><br/>
+</p>
+
+---
+
+## 📊 Results
 
 |Species|mIoU|
 | --------- | ------- |
@@ -72,35 +81,6 @@ axes[1].imshow(y_pred)
 | full_inst_YOLOv8_nano_img1024 | 100 epochs, 1024 image size on full group instances |
 
 In Figure 2, we can observe the relationship between mAP50 (mean Average Precision at IoU 0.50) and the duration and memory usage of the four trained YOLO nano models. The findings indicate that a lower number of epochs and a higher image size led to higher mAP50 scores for both the own instances and the full group instances.
-
-<pre>
-<figure>
-<img src="https://github.com/barrakat/NOVA/blob/main/Figures/Figure_2.png" width="900" />
-<ins><figcaption>Figure 2</figcaption></ins>
-<figure>
-</pre> 
-
-The models YOLOv8_nano_img1024 and full_inst_YOLOv8_nano_img1024 were subsequently utilized to make predictions and evaluate their performance in the four testing areas depicted in Figure 1.
-
----
-
-## 📊 Results
-
-Below, in Figures 3 and 4, the confusion matrix, F1 score and scatterplot of predictions vs reference observations obtained with the two models: YOLOv8_nano_img1024 and full_inst_YOLOv8_nano_img1024
-
-<pre>
-<figure>
-<img src="https://github.com/barrakat/NOVA/blob/main/Figures/Figure_3.png" width="900" />
-<ins><figcaption>Figure 3</figcaption></ins>
-<figure>
-</pre> 
-
-<pre>
-<figure>
-<img src="https://github.com/barrakat/NOVA/blob/main/Figures/Figure_4.jpg" width="900" />
-<ins><figcaption>Figure 4</figcaption></ins>
-<figure>
-</pre> 
 
 ---
 ## 👏 Acknowledgments
