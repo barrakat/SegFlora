@@ -10,7 +10,7 @@
 <a href='https://huggingface.co/datasets/torchgeo/ChesapeakeRSC/'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-ChesapeakeRSC%20Dataset-yellow'></a>
 </div>
 
-[![zenodo](https://zenodo.org/badge/639127835.svg)](https://zenodo.org/doi/10.5281/zenodo.13325668)
+[![DOI](https://zenodo.org/badge/639127835.svg)](https://zenodo.org/doi/10.5281/zenodo.13325668)
 
 <p align="center">
 <img src="https://github.com/barrakat/SegFlora/blob/main/figures/logo.png" width="900"/>
