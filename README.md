@@ -15,14 +15,15 @@
 </div> 
 
 ---
+
 ## Structure
 [📘 About](#-about)
 [💻 Inference](#-inference)
 [📊 Results](#-results)
 [👏 Acknowledgments](#-acknowledgments)
 [📝 Citation](#-citation)
----
 
+---
 
 ## 📘 About
 
