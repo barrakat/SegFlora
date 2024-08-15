@@ -4,14 +4,10 @@
 **Caterina Barrasso**<sup>1,2</sup> · **Robert Krüger**<sup>3</sup> · **Anette Eltner**<sup>3</sup> · **Anna Cord**<sup>1,2,4</sup>
 
 <sup>1</sup>Chair of Computational Landscape Ecology, TUD;&emsp;&emsp;&emsp;<sup>2</sup>ScaDS.AI;&emsp;&emsp;&emsp;
-<sup>3</sup>Geosensor Systems Group, TUD;&emsp;&emsp;&emsp;<sup>4</sup>University of Bonn
+<sup>3</sup>Juniorprofessorship in Geosensor Systems, TUD;&emsp;&emsp;&emsp;<sup>4</sup>Agro-Ecological Modeling Group, University of Bonn
 
-<a href="https://arxiv.org/abs/2401.06762"><img src='https://img.shields.io/badge/arXiv-Seeing%20the%20Roads%20Through%20the%20Trees-red' alt='Paper PDF'></a>
-<a href='https://huggingface.co/datasets/torchgeo/ChesapeakeRSC/'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-ChesapeakeRSC%20Dataset-yellow'></a>
 <a href="[https://arxiv.org/abs/2401.06762](https://zenodo.org/doi/10.5281/zenodo.13325668)"><img src='https://zenodo.org/badge/639127835.svg'></a>
 </div>
-
-[![DOI](https://zenodo.org/badge/639127835.svg)](https://zenodo.org/doi/10.5281/zenodo.13325668)
 
 <p align="center">
 <img src="https://github.com/barrakat/SegFlora/blob/main/figures/logo.png" width="900"/>
