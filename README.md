@@ -6,8 +6,7 @@
 <sup>1</sup>Chair of Computational Landscape Ecology, TUD;&emsp;&emsp;&emsp;<sup>2</sup>ScaDS.AI;&emsp;&emsp;&emsp;
 <sup>3</sup>Juniorprofessorship in Geosensor Systems, TUD;&emsp;&emsp;&emsp;<sup>4</sup>Agro-Ecological Modeling Group, University of Bonn
 
-<a href="[DOI](https://zenodo.org/doi/10.5281/zenodo.13325668)"><img src='https://zenodo.org/badge/639127835.svg'></a>
-<a [![DOI](https://zenodo.org/badge/639127835.svg)](https://zenodo.org/doi/10.5281/zenodo.13325668)></a>
+[![DOI](https://zenodo.org/badge/639127835.svg)](https://zenodo.org/doi/10.5281/zenodo.13325668)
 </div>
 
 <p align="center">
