@@ -15,16 +15,16 @@
 </div> 
 
 ---
-## Project Structure
-[📍 About](#-about)
-[🧪 Inference](#-inference)
-[💻 Results](#-results)
+## Structure
+[📘 About](#-about)
+[💻 Inference](#-inference)
+[📊 Results](#-results)
 [👏 Acknowledgments](#-acknowledgments)
-[👏 Citation](#-citation)
+[📝 Citation](#-citation)
 ---
 
 
-## 📍 About
+## 📘 About
 
 In this project, I am comparing the performance of the best-trained tree seedling detector in Norway. I am using my own labeled instances (530 in total, shown as red quadrants in Figure 1A) extracted from 82 tiled orthomosaics, each measuring 10 meters. These results are being compared against the full instances labeled by the entire class group (5074 in total, shown as blue quadrants in Figure 1A) from 3065 tiled orthomosaics of the same size (Figure 1C).
 
@@ -39,7 +39,7 @@ I trained two different models for each instance group, as explained in the "Run
 
 ---
 
-## 🧪 Inference
+## 💻 Inference
 
 We provide a `train.py` script for reproducing experiments in the paper.
 
@@ -121,7 +121,7 @@ The models YOLOv8_nano_img1024 and full_inst_YOLOv8_nano_img1024 were subsequent
 
 ---
 
-## 💻 Results
+## 📊 Results
 
 Below, in Figures 3 and 4, the confusion matrix, F1 score and scatterplot of predictions vs reference observations obtained with the two models: YOLOv8_nano_img1024 and full_inst_YOLOv8_nano_img1024
 
@@ -145,7 +145,7 @@ Below, in Figures 3 and 4, the confusion matrix, F1 score and scatterplot of pre
 > - `This work was supported by the German Federal Ministry of Education and Research (BMBF, SCADS22B) and the Saxon State Ministry for Science, Culture and Tourism (SMWK) by funding the competence center for Big Data and AI “ScaDS.AI Dresden/Leipzig”. The work was also partly funded by the Horizon European project Earth Bridge (ID: 101079310) and by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) under Germany’s Excellence Strategy – EXC 2070 – 390732324. The authors gratefully acknowledge the GWK support for funding this project by providing computing time through the Center for Information Services and HPC (ZIH) at TU Dresden. We thank the UNESCO biosphere reserve “Upper Lusatian Health and Pond Landscape” and the agricultural cooperative “Heidefarm Sdier eG” who allowed us to collect the data for this study. We further thank others who have helped in the data collection and labelling of the images, in particular Sophia Lewitz, Bela Rehnen, Stephanie Roilo, Anja Steingrobe.`
 ---
 
-## Citation
+## 📝 Citation
 
 How to cite this work:
 
