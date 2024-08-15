@@ -25,7 +25,7 @@
 ---
 
 ## 📘 About
-This repository contains code to reproduce the analyses of the publication "Remote sensing of segetal flora in arable fields using off-the-shelf UAV-based imagery and deep learning for result-based payments" where we conducted multiple UAV flights in an arable area in the East of Germany with winter barley grown as main crop under different management intensities. Our goal was to develop an affordable monitoring system for mapping and conservation of segetal flora using an off-the-shelf UAV-based RGB camera and the YOLO deep learning architecture. Data and trained YOLO models per species can be found in [zenodo](https://zenodo.org/doi/10.5281/zenodo.13325668/)
+This repository contains code to reproduce the analyses of the publication *"Remote sensing of segetal flora in arable fields using off-the-shelf UAV-based imagery and deep learning for result-based payments*", where we conducted multiple UAV flights in an arable area in the eastern Germany with winter barley grown as the main crop under different management intensities. Our goal was to develop an affordable monitoring system for the mapping and conservation of segetal flora using an off-the-shelf UAV-based RGB camera and the YOLO deep learning architecture. Data and trained YOLO models per species can be found in [zenodo](https://zenodo.org/doi/10.5281/zenodo.13325668/).
 
 <pre>
 <figure>
@@ -33,6 +33,11 @@ This repository contains code to reproduce the analyses of the publication "Remo
 <ins><figcaption>Figure 1</figcaption></ins>
 <figure>
 </pre> 
+
+<p align="center">
+    <img src="./assets/sample.png" width="800"/><br/>
+    <b>Figure 1.</b> Example images and labels from the dataset. Labels are shown over the corresponding NAIP aerial imagery with the "Road" class colored in blue and the "Tree Canopy over Road" class in red.
+</p>
 
 ---
 
