@@ -39,7 +39,7 @@ I trained two different models for each instance group, as explained in the "Run
 
 ---
 
-## 🧪 Running tests
+## 🧪 Inference
 
 We provide a `train.py` script for reproducing experiments in the paper.
 
@@ -140,23 +140,9 @@ Below, in Figures 3 and 4, the confusion matrix, F1 score and scatterplot of pre
 </pre> 
 
 ---
-## 🗺 Discussion
+## 👏 Acknowledgments
 
-> - `ℹ️ Point 1` --> Training the models with an increased image size primarily had an impact on the memory usage for YOLOv8_nano and both memory usage and duration for full_inst_YOLOv8_nano. However, despite these differences, the mAP50 consistently showed improvement when image size was increased and epochs were reduced. Comparing YOLOv8_nano_img1024 and full_inst_YOLOv8_nano_img1024, it was observed that YOLOv8_nano_img1024 achieved a doubled mAP50 compared to full_inst_YOLOv8_nano_img1024, while also requiring nearly 1/4th of the training duration (as illustrated in Figure 2).
-
-> - `ℹ️ Point 2` --> The model trained on my own 530 instances (YOLOv8_nano_img1024) demonstrated a remarkably similar accuracy compared to the model trained on the full 5074 instances (full_inst_YOLOv8_nano_img1024), with F1 scores of 0.45 and 0.48, respectively. Notably, YOLOv8_nano_img1024 exhibited slightly higher true positives and lower false positives, as indicated in Figure 4. Considering the lower training duration illustrated in Figure 2 and the highly comparable accuracy displayed in Figure 4, training on a smaller number of instances proved to be more convenient in this particular case.
-
-> - `ℹ️ Point 3` --> Figure 5 presents several observed examples where the YOLOv8_nano_img1024 model (highlighted in red) failed to make accurate predictions, as denoted by the green boxes. One of the primary strategies for enhancing model accuracy involves improving the quality of training instances. In Figure 5, three specific examples provide valuable insights for improving data quality: i) Labeling more big leafless trees: Including additional labeled instances of large leafless trees would facilitate their proper mapping and detection, ii) Careful labeling of plant species: Paying close attention to the accuracy of plant species labeling is crucial for precise predictions, iii) Exploring alternative tile sizes for data labeling: Trying different tile sizes during the labeling process can help prevent the occurrence of two predicted bounding boxes on the same tree.
-
-By implementing these suggested improvements, it is anticipated that the overall accuracy of the model can be enhanced.
-
-<pre>
-<figure>
-<img src="https://github.com/barrakat/NOVA/blob/main/Figures/Figure_5.png" width="900" />
-<ins><figcaption>Figure 5</figcaption></ins>
-<figure>
-</pre> 
-
+> - `This work was supported by the German Federal Ministry of Education and Research (BMBF, SCADS22B) and the Saxon State Ministry for Science, Culture and Tourism (SMWK) by funding the competence center for Big Data and AI “ScaDS.AI Dresden/Leipzig”. The work was also partly funded by the Horizon European project Earth Bridge (ID: 101079310) and by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) under Germany’s Excellence Strategy – EXC 2070 – 390732324. The authors gratefully acknowledge the GWK support for funding this project by providing computing time through the Center for Information Services and HPC (ZIH) at TU Dresden. We thank the UNESCO biosphere reserve “Upper Lusatian Health and Pond Landscape” and the agricultural cooperative “Heidefarm Sdier eG” who allowed us to collect the data for this study. We further thank others who have helped in the data collection and labelling of the images, in particular Sophia Lewitz, Bela Rehnen, Stephanie Roilo, Anja Steingrobe.`
 ---
 
 ## Citation
@@ -171,38 +157,7 @@ How to cite this work:
   year={}
 }
 ```
-BibTeX:
-```
-@article{DeepWeeds2019,
-  author = {Alex Olsen and
-    Dmitry A. Konovalov and
-    Bronson Philippa and
-    Peter Ridd and
-    Jake C. Wood and
-    Jamie Johns and
-    Wesley Banks and
-    Benjamin Girgenti and
-    Owen Kenny and 
-    James Whinney and
-    Brendan Calvert and
-    Mostafa {Rahimi Azghadi} and
-    Ronald D. White},
-  title = {{DeepWeeds: A Multiclass Weed Species Image Dataset for Deep Learning}},
-  journal = {Scientific Reports},
-  year = 2019,
-  number = 2058,
-  month = 2,
-  volume = 9,
-  issue = 1,
-  day = 14,
-  url = "https://doi.org/10.1038/s41598-018-38343-3",
-  doi = "10.1038/s41598-018-38343-3"
-}
 
-```
 
-## 👏 Acknowledgments
-
-> - `This work was supported by the German Federal Ministry of Education and Research (BMBF, SCADS22B) and the Saxon State Ministry for Science, Culture and Tourism (SMWK) by funding the competence center for Big Data and AI “ScaDS.AI Dresden/Leipzig”. The work was also partly funded by the Horizon European project Earth Bridge (ID: 101079310) and by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) under Germany’s Excellence Strategy – EXC 2070 – 390732324. The authors gratefully acknowledge the GWK support for funding this project by providing computing time through the Center for Information Services and HPC (ZIH) at TU Dresden. We thank the UNESCO biosphere reserve “Upper Lusatian Health and Pond Landscape” and the agricultural cooperative “Heidefarm Sdier eG” who allowed us to collect the data for this study. We further thank others who have helped in the data collection and labelling of the images, in particular Sophia Lewitz, Bela Rehnen, Stephanie Roilo, Anja Steingrobe.`
 
 ---
