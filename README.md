@@ -73,7 +73,6 @@ The models were trained on the number of instances per species shown below:
 
 ## 📊 Results
 
-<p align="center">
 |Species|mIoU - 10m|mIoU - 20m|mIoU - 40m|
 | --------- | ------- |  ------- |  ------- |
 | *Anchusa arvensis* | 300  | |  |
@@ -83,7 +82,6 @@ The models were trained on the number of instances per species shown below:
 | *Papaver dubium*  | 100  | |  |
 | *Tripleurospermum inodorum*  | 300 | |  |
 | *Vicia* spec.  | 100  | |  |
-</p>
 
 In Figure 2, we can observe the relationship between mAP50 (mean Average Precision at IoU 0.50) and the duration and memory usage of the four trained YOLO nano models. The findings indicate that a lower number of epochs and a higher image size led to higher mAP50 scores for both the own instances and the full group instances.
 
