@@ -38,35 +38,35 @@ This repository contains code to reproduce the analyses of the publication *"Rem
 The `Centaurea_cyanus_prediction.py` script in [here](https://github.com/barrakat/SegFlora/blob/main/code), for example, can be used to produce instance segmentation of *"Centaurea cyanus*" on UAV-based RGB images of ground sampling distance 1.22-4.88 mm. 
 
 ```python
-from urllib import request
-import detectree as dtr
-import matplotlib.pyplot as plt
-import rasterio as rio
-from rasterio import plot
+import ultralytics
+from ultralytics import YOLO
+path = 'https://github.com/barrakat/SegFlora/blob/main/figures/'
 
-# download a tile from the SWISSIMAGE WMS
-tile_url = (
-    "https://wms.geo.admin.ch/?SERVICE=WMS&REQUEST=GetMap&VERSION=1.3.0&"
-    "FORMAT=image/png&LAYERS=ch.swisstopo.images-swissimage&CRS=EPSG:2056"
-    "&BBOX=2532980,1152150,2533380,1152450&WIDTH=800&HEIGHT=600"
-)
-tile_filename = "tile.png"
-request.urlretrieve(tile_url, tile_filename)
+# load the trained model
+model = '/zenodo/CBarrasso/UAV_SegetalFlora/models/Centaurea_cyanus/best.pt'
 
-# use the pre-trained model to segment the image into tree/non-tree-pixels
-y_pred = dtr.Classifier().predict_img(tile_filename)
+# load one test plot monitored at 10, 20 and 40 m above-ground for Centaurea cyanus predictions
+image_10m = "https://github.com/barrakat/SegFlora/blob/main/figures/plot_26_flight_X10.png"
+image_20m = "https://github.com/barrakat/SegFlora/blob/main/figures/plot_26_flight_X20.png"
+image_30m = "https://github.com/barrakat/SegFlora/blob/main/figures/plot_26_flight_X40.png"
 
-# side-by-side plot of the tile and the predicted tree/non-tree pixels
-figwidth, figheight = plt.rcParams["figure.figsize"]
-fig, axes = plt.subplots(1, 2, figsize=(2 * figwidth, figheight))
-with rio.open(tile_filename) as src:
-    plot.show(src, ax=axes[0])
-axes[1].imshow(y_pred)
+# inference
+!yolo predict model=$model source=$image_10m imgsz=864 conf=0.269 project=$path save_txt=True save_conf=True save=True line_width=1 retina_masks=True
+!yolo predict model=$model source=$image_20m imgsz=864 conf=0.269 project=$path save_txt=True save_conf=True save=True line_width=1 retina_masks=True
+!yolo predict model=$model source=$image_40m imgsz=864 conf=0.269 project=$path save_txt=True save_conf=True save=True line_width=1 retina_masks=True
+
 ```
+
+And here the output results for one test plot:
+<p align="center">
+    <img src="https://github.com/barrakat/SegFlora/blob/main/figures/Figure_3.png" width="500"/><br/>
+</p>
+
+
 The models were trained on the number of instances per species shown below:
 
 <p align="center">
-    <img src="https://github.com/barrakat/SegFlora/blob/main/figures/Figure_2.PNG" width="500"/><br/>
+    <img src="https://github.com/barrakat/SegFlora/blob/main/figures/Figure_2.png" width="500"/><br/>
 </p>
 
 ---
