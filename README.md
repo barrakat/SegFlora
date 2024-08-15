@@ -66,7 +66,7 @@ axes[1].imshow(y_pred)
 The models were trained on the number of instances per species shown below:
 
 <p align="center">
-    <img src="https://github.com/barrakat/SegFlora/blob/main/figures/Figure_2.png" width="800"/><br/>
+    <img src="https://github.com/barrakat/SegFlora/blob/main/figures/Figure_2.PNG" width="800"/><br/>
 </p>
 
 ---
