@@ -73,22 +73,22 @@ The models were trained on the number of instances per species shown below:
 
 ## 📊 Results
 
-|Species|mIoU - 10m|mIoU - 20m|mIoU - 40m|
-| --------- | ------- |  ------- |  ------- |
-| *Anchusa arvensis* | 300  | |  |
-| *Centaurea cyanus*  | 100  | |  |
-| *Cirsium arvense*  | 300 | |  |
-| *Equisetum arvense*  | 100  | |  |
-| *Papaver dubium*  | 100  | |  |
-| *Tripleurospermum inodorum*  | 300 | |  |
-| *Vicia* spec.  | 100  | |  |
+|Species|mean mIoU - extensive management|mean mIoU - intensive management|
+| --------- | ------- |  ------- | 
+| *Anchusa arvensis* |0.7|0.7| 
+| *Centaurea cyanus*  |0.8|1.0| 
+| *Cirsium arvense*  |0.9|1.0| 
+| *Equisetum arvense*  |0.9|0.9| 
+| *Papaver dubium*  |0.8|1.0 | 
+| *Tripleurospermum inodorum*  |0.9|1.0|
+| *Vicia* spec.  |0.5|1.0|
 
 In Figure 2, we can observe the relationship between mAP50 (mean Average Precision at IoU 0.50) and the duration and memory usage of the four trained YOLO nano models. The findings indicate that a lower number of epochs and a higher image size led to higher mAP50 scores for both the own instances and the full group instances.
 
 ---
 ## 👏 Acknowledgments
 
-This work was supported by the German Federal Ministry of Education and Research (BMBF, SCADS22B) and the Saxon State Ministry for Science, Culture and Tourism (SMWK) by funding the competence center for Big Data and AI “ScaDS.AI Dresden/Leipzig”. The work was also partly funded by the Horizon European project Earth Bridge (ID: 101079310) and by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) under Germany’s Excellence Strategy – EXC 2070 – 390732324. The authors gratefully acknowledge the GWK support for funding this project by providing computing time through the Center for Information Services and HPC (ZIH) at TU Dresden. We thank the UNESCO biosphere reserve “Upper Lusatian Health and Pond Landscape” and the agricultural cooperative “Heidefarm Sdier eG” who allowed us to collect the data for this study. We further thank others who have helped in the data collection and labelling of the images, in particular Sophia Lewitz, Bela Rehnen, Stephanie Roilo, Anja Steingrobe.
+CB received financial support from the German Federal Ministry of Education and Research (BMBF) and the Saxon State Ministry of Science, Culture and Tourism (SMWK) by funding the “Center for Scalable Data Analytics and Artificial Intelligence Dresden/Leipzig”, project identification number: SCADS24B. RK was funded by the Horizon Europe project Earth Bridge (grant agreement no. 101079310). AFC was supported by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) under Germany’s Excellence Strategy – EXC 2070 – 390732324. Views and opinions expressed are, however, those of the authors only and do not necessarily reflect those of the European Union. Neither the European Union nor the granting authority can be held responsible for them. The authors gratefully acknowledge the GWK support for funding this project by providing computing time through the Center for Information Services and HPC (ZIH) at TU Dresden. We would like to thank the UNESCO biosphere reserve “Upper Lusatian Health and Pond Landscape” and the agricultural cooperative “Heidefarm Sdier eG” for allowing us to collect the data for this study and for logistic support. We further thank others who helped with data collection and labeling of the images, in particular Sophia Lewitz, Bela Rehnen, Stephanie Roilo and Anja Steingrobe.
 
 ---
 
