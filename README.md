@@ -24,7 +24,7 @@
 ---
 
 ## 📘 About
-This repository contains code to reproduce the analyses of the publication *"Remote sensing of segetal flora in arable fields using off-the-shelf UAV-based imagery and deep learning for result-based payments*", where we conducted multiple UAV flights in an arable area in the eastern Germany with winter barley grown as the main crop under different management intensities. Our goal was to develop an affordable monitoring system for the mapping and conservation of segetal flora using an off-the-shelf UAV-based RGB camera and the YOLO deep learning architecture. Data and trained YOLO models per species can be found in [zenodo](https://zenodo.org/doi/10.5281/zenodo.13325668/).
+This repository contains code to reproduce the analyses presented in the publication *"Remote sensing of segetal flora in arable fields using off-the-shelf UAV-based imagery and deep learning for result-based payments*". In this study, we conducted multiple UAV flights in an arable area in Germany with winter barley grown as the main crop under different management intensities. The objective was to develop an affordable monitoring system to facilitate the implementation of result-based payments in arable land, thereby contributing to the conservation of segetal flora species. The study investigates species detectability and ground sampling distance trade-offs to effectively monitor segetal flora using an off-the-shelf UAV-based RGB camera and the YOLO deep learning architecture. Data and trained YOLO models per species can be found in [zenodo](https://zenodo.org/doi/10.5281/zenodo.13325668/).
 
 <p align="center">
     <img src="https://github.com/barrakat/SegFlora/blob/main/figures/Figure_1.png" width="800"/><br/>
@@ -35,25 +35,28 @@ This repository contains code to reproduce the analyses of the publication *"Rem
 
 ## 💻 Inference
 
-The `Centaurea_cyanus_prediction.py` script in [here](https://github.com/barrakat/SegFlora/blob/main/code), for example, can be used to produce instance segmentation of *"Centaurea cyanus*" on UAV-based RGB images of ground sampling distance 1.22-4.88 mm. 
+The `Centaurea_cyanus_prediction.py` script in [here](https://github.com/barrakat/SegFlora/blob/main/code), for example, can be used for instance segmentation of *"Centaurea cyanus*" on UAV-based RGB imagery with a ground sampling distance of 1.22-4.88 mm. The following code illustrates how to utilize the trained model:
 
 ```python
+
 import ultralytics
 from ultralytics import YOLO
-path = 'https://github.com/barrakat/SegFlora/blob/main/figures/'
+out = 'https://github.com/barrakat/SegFlora/blob/main/figures/'
 
-# load the trained model
+# load the trained model stored in zenodo
 model = '/zenodo/CBarrasso/UAV_SegetalFlora/models/Centaurea_cyanus/best.pt'
 
-# load one test plot monitored at 10, 20 and 40 m above-ground for Centaurea cyanus predictions
+# load RGB images collected at 10, 20 and 40 m above-ground in one test plot. All test plots images are stored
+# in zenodo
+
 image_10m = "https://github.com/barrakat/SegFlora/blob/main/figures/plot_26_flight_X10.png"
 image_20m = "https://github.com/barrakat/SegFlora/blob/main/figures/plot_26_flight_X20.png"
 image_30m = "https://github.com/barrakat/SegFlora/blob/main/figures/plot_26_flight_X40.png"
 
 # inference
-!yolo predict model=$model source=$image_10m imgsz=864 conf=0.269 project=$path save_txt=True save_conf=True save=True line_width=1 retina_masks=True
-!yolo predict model=$model source=$image_20m imgsz=864 conf=0.269 project=$path save_txt=True save_conf=True save=True line_width=1 retina_masks=True
-!yolo predict model=$model source=$image_40m imgsz=864 conf=0.269 project=$path save_txt=True save_conf=True save=True line_width=1 retina_masks=True
+!yolo predict model=$model source=$image_10m imgsz=864 conf=0.269 project=$out save_txt=True save_conf=True save=True line_width=1 retina_masks=True
+!yolo predict model=$model source=$image_20m imgsz=864 conf=0.269 project=$out save_txt=True save_conf=True save=True line_width=1 retina_masks=True
+!yolo predict model=$model source=$image_40m imgsz=864 conf=0.269 project=$out save_txt=True save_conf=True save=True line_width=1 retina_masks=True
 
 ```
 
