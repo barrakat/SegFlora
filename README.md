@@ -46,8 +46,8 @@ out = 'https://github.com/barrakat/SegFlora/blob/main/figures/'
 # load the trained model stored in zenodo
 model = '/zenodo/CBarrasso/UAV_SegetalFlora/models/Centaurea_cyanus/best.pt'
 
-# load RGB images collected at 10, 20 and 40 m above-ground in one test plot. All test plots images are stored
-# in zenodo
+# load RGB images collected at 10, 20 and 40 m above-ground in one test plot.
+# All test plots images are stored in zenodo
 
 image_10m = "https://github.com/barrakat/SegFlora/blob/main/figures/plot_26_flight_X10.png"
 image_20m = "https://github.com/barrakat/SegFlora/blob/main/figures/plot_26_flight_X20.png"
@@ -60,13 +60,13 @@ image_30m = "https://github.com/barrakat/SegFlora/blob/main/figures/plot_26_flig
 
 ```
 
-And here the output results for one test plot:
+Below are shown the RGB images of different GDSs, captured at 3 different heights, and the *"Centaurea cyanus*" predictions given by the model:
+
 <p align="center">
     <img src="https://github.com/barrakat/SegFlora/blob/main/figures/Figure_2.png" width="1000"/><br/>
 </p>
 
-
-The models were trained on the number of instances per species shown below:
+The trained and realised models per species in [zenodo](https://zenodo.org/records/13325668) were trained on the number of instances shown below:
 
 <p align="center">
     <img src="https://github.com/barrakat/SegFlora/blob/main/figures/Figure_3.png" width="1000"/><br/>
