@@ -28,7 +28,7 @@ This repository contains code to reproduce the analyses presented in the publica
 
 <p align="center">
     <img src="https://github.com/barrakat/SegFlora/blob/main/figures/Figure_1.png" width="800"/><br/>
-    <b>Figure 1.</b> (a) Study area with training (blue) and test plots (sky blue) under two management types. (b) Onsite segetal flora species and winter barley cover per management type.
+    <b>Figure 1.</b> (a) Study area with training (blue) and test (sky blue) plots under two management types. (b) Onsite segetal flora species and winter barley cover per management type.
 </p>
 
 ---
