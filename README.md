@@ -59,7 +59,7 @@ image_30m = "https://github.com/barrakat/SegFlora/blob/main/figures/plot_26_flig
 !yolo predict model=$model source=$image_40m imgsz=864 conf=0.269 project=$out save_txt=True save_conf=True save=True line_width=1 retina_masks=True
 
 ```
-The following figure shows the RGB images captured above one test plots at 3 different altitudes (3 different GSDs), with the model-generated predictions for *"Centaurea cyanus*" obtained with the code above:
+The following figure shows the RGB images captured above one test plots at 3 different altitudes (3 different GSDs), with the model-generated predictions for *Centaurea cyanus* obtained with the code above:
 
 <p align="center">
     <img src="https://github.com/barrakat/SegFlora/blob/main/figures/Figure_2.png" width="1000"/><br/>
