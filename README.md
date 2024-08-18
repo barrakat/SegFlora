@@ -17,7 +17,7 @@
 
 [📘 About](#-about)
 [💻 Inference](#-inference)
-[📊 Results](#-results)
+[📊 Accuracy](#-accuracy)
 [👏 Acknowledgments](#-acknowledgments)
 [📝 Citation](#-citation)
 
@@ -35,7 +35,7 @@ This repository contains code to reproduce the analyses presented in the publica
 
 ## 💻 Inference
 
-The `Centaurea_cyanus_prediction.py` script in [here](https://github.com/barrakat/SegFlora/blob/main/code), for example, can be used for instance segmentation of *"Centaurea cyanus*" on UAV-based RGB imagery with a ground sampling distance of 1.22-4.88 mm. The following code illustrates how to utilize the trained model:
+The `Centaurea_cyanus_prediction.py` script in [here](https://github.com/barrakat/SegFlora/blob/main/code), for example, can be used for instance segmentation of *"Centaurea cyanus*" on UAV-based RGB imagery with a ground sampling distance (GSD) of 1.22-4.88 mm. The following code illustrates how to utilize the trained model:
 
 ```python
 
@@ -46,8 +46,8 @@ out = 'https://github.com/barrakat/SegFlora/blob/main/figures/'
 # load the trained model stored in zenodo
 model = '/zenodo/CBarrasso/UAV_SegetalFlora/models/Centaurea_cyanus/best.pt'
 
-# load RGB images collected at 10, 20 and 40 m above-ground in one test plot.
-# All test plots images are stored in zenodo
+# load RGB images collected at 10, 20 and 40 m above-ground in one test plot
+# all test plots images are stored in zenodo
 
 image_10m = "https://github.com/barrakat/SegFlora/blob/main/figures/plot_26_flight_X10.png"
 image_20m = "https://github.com/barrakat/SegFlora/blob/main/figures/plot_26_flight_X20.png"
@@ -59,14 +59,13 @@ image_30m = "https://github.com/barrakat/SegFlora/blob/main/figures/plot_26_flig
 !yolo predict model=$model source=$image_40m imgsz=864 conf=0.269 project=$out save_txt=True save_conf=True save=True line_width=1 retina_masks=True
 
 ```
-
-Below are shown the RGB images of different GDSs, captured at 3 different heights, and the *"Centaurea cyanus*" predictions given by the model:
+The following figure shows the RGB images captured above one test plots at 3 different altitudes (3 different GSDs), with the model-generated predictions for *"Centaurea cyanus*" obtained with the code above:
 
 <p align="center">
     <img src="https://github.com/barrakat/SegFlora/blob/main/figures/Figure_2.png" width="1000"/><br/>
 </p>
 
-The trained and realised models per species in [zenodo](https://zenodo.org/records/13325668) were trained on the number of instances shown below:
+The released models per species in [zenodo](https://zenodo.org/records/13325668) were trained based on the number of instances shown below:
 
 <p align="center">
     <img src="https://github.com/barrakat/SegFlora/blob/main/figures/Figure_3.png" width="1000"/><br/>
@@ -74,7 +73,7 @@ The trained and realised models per species in [zenodo](https://zenodo.org/recor
 
 ---
 
-## 📊 Results
+## 📊 Accuracy
 
 |Species|mean mIoU - extensive management|mean mIoU - intensive management|
 | --------- | ------- |  ------- | 
@@ -85,8 +84,6 @@ The trained and realised models per species in [zenodo](https://zenodo.org/recor
 | *Papaver dubium*  |0.8|1.0 | 
 | *Tripleurospermum inodorum*  |0.9|1.0|
 | *Vicia* spec.  |0.5|1.0|
-
-In Figure 2, we can observe the relationship between mAP50 (mean Average Precision at IoU 0.50) and the duration and memory usage of the four trained YOLO nano models. The findings indicate that a lower number of epochs and a higher image size led to higher mAP50 scores for both the own instances and the full group instances.
 
 ---
 ## 👏 Acknowledgments
