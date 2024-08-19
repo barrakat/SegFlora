@@ -35,7 +35,7 @@ This repository contains code to reproduce the analyses presented in the publica
 
 ## 💻 Inference
 
-The `Centaurea_cyanus_prediction.py` script in [here](https://github.com/barrakat/SegFlora/blob/main/code), for example, can be used for instance segmentation of *"Centaurea cyanus*" on UAV-based RGB imagery with a ground sampling distance (GSD) of 1.22-4.88 mm. The following code illustrates how to utilize the trained model:
+The `Centaurea_cyanus_prediction.py` script in [here](https://github.com/barrakat/SegFlora/blob/main/code), for example, can be used for instance segmentation of *Centaurea cyanus* on UAV-based RGB imagery with a ground sampling distance (GSD) of 1.22-4.88 mm. The following code illustrates how to utilize the trained model:
 
 ```python
 
