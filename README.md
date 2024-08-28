@@ -100,7 +100,7 @@ How to cite this work:
 @article{BarrassoC.,
   title={Remote sensing of segetal flora in arable fields using off-the-shelf UAV-based imagery and deep learning for result-based payments},
   author={Caterina Barrasso, Robert Krüger, Anette Eltner, Anna F. Cord},
-  journal={under review in: Remote Sensing in Ecology and Conservation},
+  journal={under review},
   year={}
 }
 ```
