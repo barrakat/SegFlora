@@ -3,9 +3,8 @@
 # Author: Caterina Barrasso
 # Date: 15 August 2024 
 
-# Code to reproduce the results of the publication: 'Remote sensing 
-# of segetal flora in arable fields using off-the-shelf UAV-based imagery and 
-# deep learning for result-based payments' 
+# Code to reproduce the results of the publication: 'Mapping indicator species of 
+segetal flora in arable land using UAV imagery and deep learning' 
 
 #------------------------------------------------------------------------------
 
