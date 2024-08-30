@@ -50,7 +50,6 @@ library(DHARMa)
 library(car)
 library(reshape2)
 library(data.table)
-
 library(flextable)
 library(jtools) 
 
@@ -166,7 +165,6 @@ ggsave("Figure3b_legend.png", legend, dpi = 900)
 
 # libraries and data
 library(ggpubr)
-
 library(rstatix)
 library(dplyr)
 library(ggplot2)
@@ -842,7 +840,6 @@ ggsave("figure7_2.png", A, dpi = 900, width=17, height=8)
 library(ggplot2)
 library(data.table)
 library(tidyr)
-
 library(cowplot)
 
 data = read.csv(paste0(directory,"training_validation_loss_mAP.csv"))
