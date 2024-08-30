@@ -4,7 +4,7 @@
 # Date: 15 August 2024 
 
 # Code to reproduce the results of the publication: 'Mapping indicator species of 
-segetal flora in arable land using UAV imagery and deep learning' 
+# segetal flora in arable land using UAV imagery and deep learning' 
 
 #------------------------------------------------------------------------------
 
