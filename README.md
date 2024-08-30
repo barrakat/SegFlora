@@ -1,5 +1,5 @@
 <div align="center">
-<h2>Remote sensing of segetal flora in arable fields using off-the-shelf UAV-based imagery and deep learning for result-based payments</h2>
+<h2>Mapping indicator species of segetal flora in arable land using UAV imagery and deep learning</h2>
 
 **Caterina Barrasso**<sup>1,2</sup> · **Robert Krüger**<sup>3</sup> · **Anette Eltner**<sup>3</sup> · **Anna Cord**<sup>1,2,4</sup>
 
