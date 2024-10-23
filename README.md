@@ -1,5 +1,5 @@
 <div align="center">
-<h2>Mapping indicator species of segetal flora in arable land using UAV imagery and deep learning</h2>
+<h2>Mapping indicator species of segetal flora for result-based payments in arable land using UAV imagery and deep learning</h2>
 
 **Caterina Barrasso**<sup>1,2</sup> · **Robert Krüger**<sup>3</sup> · **Anette Eltner**<sup>3</sup> · **Anna Cord**<sup>1,2,4</sup>
 
