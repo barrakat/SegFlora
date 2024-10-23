@@ -639,46 +639,181 @@ shapiro.test(field$std)
 shapiro.test(m_40$std)
 shapiro.test(extensive$std)
 
+shapiro.test(plot$rao)
+shapiro.test(field$rao)
+shapiro.test(m_40$rao)
+shapiro.test(extensive$rao)
+
+shapiro.test(plot$skewness)
+shapiro.test(field$skewness)
+shapiro.test(m_40$skewness)
+shapiro.test(extensive$skewness)
+
+shapiro.test(plot$kurtosis)
+shapiro.test(field$kurtosis)
+shapiro.test(m_40$kurtosis)
+shapiro.test(extensive$kurtosis)
+
 fig_6_1 = ggscatter(plot, x = "std", y = "non.detectable.species..", 
 add = "reg.line",conf.int = TRUE, 
-cor.method = "pearson", xlab = "std", ylab = "non-detectable species %",palette = c("#C27CD3", "#FDBF6F"))+
+cor.method = "pearson", xlab = "", ylab = "",palette = c("#C27CD3", "#FDBF6F"))+
 geom_point(aes(size = 7,alpha = 0.2,color = management))+theme(axis.text.y = element_text(size = 20),axis.text.x = element_text(size = 20),
 axis.title.y = element_text(size = 20),axis.title.x = element_text(size = 20))+theme_bw() +
 theme(axis.text.y = element_text(size = 20),legend.position="none",axis.text.x = element_text(size = 20),
 axis.title.y = element_text(size = 30),axis.title.x = element_text(size = 30))+ stat_cor(label.x.npc="right", 
-label.y.npc="top", hjust=1, size = 10,show.legend = FALSE)+ guides(color = FALSE, size = FALSE)
+label.y.npc="top", hjust=1, size = 20,show.legend = FALSE)+ guides(color = FALSE, size = FALSE)
 
 fig_6_2 = ggscatter(field, x = "std", y = "non.detectable.species..", 
 add = "reg.line",conf.int = TRUE, 
-cor.method = "pearson", xlab = "std", ylab = "non-detectable species %",palette = c("#C27CD3", "#FDBF6F"))+
+cor.method = "pearson", xlab = "", ylab = "",palette = c("#C27CD3", "#FDBF6F"))+
 geom_point(aes(size = 7,alpha = 0.2,color = management))+theme(axis.text.y = element_text(size = 20),axis.text.x = element_text(size = 20),
 axis.title.y = element_text(size = 20),axis.title.x = element_text(size = 20))+theme_bw() +
 theme(axis.text.y = element_text(size = 20),legend.position="none",axis.text.x = element_text(size = 20),
 axis.title.y = element_text(size = 30),axis.title.x = element_text(size = 30))+ stat_cor(label.x.npc="right", 
-label.y.npc="top", hjust=1, size = 10,show.legend = FALSE)+ guides(color = FALSE, size = FALSE)
+label.y.npc="top", hjust=1, size = 20,show.legend = FALSE)+ guides(color = FALSE, size = FALSE)
 
 fig_6_3 = ggscatter(m_40, x = "std", y = "non.detectable.species..", 
 add = "reg.line",conf.int = TRUE, 
-cor.method = "pearson", xlab = "std", ylab = "non-detectable species %",palette = c("#C27CD3", "#FDBF6F"))+
+cor.method = "pearson", xlab = "", ylab = "n",palette = c("#C27CD3", "#FDBF6F"))+
 geom_point(aes(size = 7,alpha = 0.2,color = management))+theme(axis.text.y = element_text(size = 20),axis.text.x = element_text(size = 20),
 axis.title.y = element_text(size = 20),axis.title.x = element_text(size = 20))+theme_bw() +
 theme(axis.text.y = element_text(size = 20),legend.position="none",axis.text.x = element_text(size = 20),
 axis.title.y = element_text(size = 30),axis.title.x = element_text(size = 30))+ stat_cor(label.x.npc="right", 
-label.y.npc="top", hjust=1, size = 10,show.legend = FALSE)+ guides(color = FALSE, size = FALSE)
+label.y.npc="top", hjust=1, size = 20,show.legend = FALSE)+ guides(color = FALSE, size = FALSE)
 
 fig_6_4 = ggscatter(extensive, x = "std", y = "non.detectable.species..", 
 add = "reg.line",conf.int = TRUE, 
-cor.method = "spearman", xlab = "std", ylab = "non-detectable species %",palette = c("#C27CD3", "#FDBF6F"))+
+cor.method = "spearman", xlab = "", ylab = "",palette = c("#C27CD3", "#FDBF6F"))+
 geom_point(aes(size = 7,alpha = 0.2,color = management))+theme(axis.text.y = element_text(size = 20),axis.text.x = element_text(size = 20),
 axis.title.y = element_text(size = 20),axis.title.x = element_text(size = 20))+theme_bw() +
 theme(axis.text.y = element_text(size = 20),legend.position="none",axis.text.x = element_text(size = 20),
 axis.title.y = element_text(size = 30),axis.title.x = element_text(size = 30))+ stat_cor(label.x.npc="right", 
-label.y.npc="top", hjust=1, size = 10,show.legend = FALSE)+ guides(color = FALSE, size = FALSE)
+label.y.npc="top", hjust=1, size = 20,show.legend = FALSE)+ guides(color = FALSE, size = FALSE)
+
+fig_6_5 = ggscatter(plot, x = "rao", y = "non.detectable.species..", 
+add = "reg.line",conf.int = TRUE, 
+cor.method = "pearson", xlab = "", ylab = "",palette = c("#C27CD3", "#FDBF6F"))+
+geom_point(aes(size = 7,alpha = 0.2,color = management))+theme(axis.text.y = element_text(size = 20),axis.text.x = element_text(size = 20),
+axis.title.y = element_text(size = 20),axis.title.x = element_text(size = 20))+theme_bw() +
+theme(axis.text.y = element_text(size = 20),legend.position="none",axis.text.x = element_text(size = 20),
+axis.title.y = element_text(size = 30),axis.title.x = element_text(size = 30))+ stat_cor(label.x.npc="right", 
+label.y.npc="top", hjust=1, size = 20,show.legend = FALSE)+ guides(color = FALSE, size = FALSE)
+
+fig_6_6 = ggscatter(field, x = "rao", y = "non.detectable.species..", 
+add = "reg.line",conf.int = TRUE, 
+cor.method = "spearman", xlab = "", ylab = "",palette = c("#C27CD3", "#FDBF6F"))+
+geom_point(aes(size = 7,alpha = 0.2,color = management))+theme(axis.text.y = element_text(size = 20),axis.text.x = element_text(size = 20),
+axis.title.y = element_text(size = 20),axis.title.x = element_text(size = 20))+theme_bw() +
+theme(axis.text.y = element_text(size = 20),legend.position="none",axis.text.x = element_text(size = 20),
+axis.title.y = element_text(size = 30),axis.title.x = element_text(size = 30))+ stat_cor(label.x.npc="right", 
+label.y.npc="top", hjust=1, size = 20,show.legend = FALSE)+ guides(color = FALSE, size = FALSE)
+
+fig_6_7 = ggscatter(m_40, x = "rao", y = "non.detectable.species..", 
+add = "reg.line",conf.int = TRUE, 
+cor.method = "pearson", xlab = "", ylab = "",palette = c("#C27CD3", "#FDBF6F"))+
+geom_point(aes(size = 7,alpha = 0.2,color = management))+theme(axis.text.y = element_text(size = 20),axis.text.x = element_text(size = 20),
+axis.title.y = element_text(size = 20),axis.title.x = element_text(size = 20))+theme_bw() +
+theme(axis.text.y = element_text(size = 20),legend.position="none",axis.text.x = element_text(size = 20),
+axis.title.y = element_text(size = 30),axis.title.x = element_text(size = 30))+ stat_cor(label.x.npc="right", 
+label.y.npc="top", hjust=1, size = 20,show.legend = FALSE)+ guides(color = FALSE, size = FALSE)
+
+fig_6_8 = ggscatter(extensive, x = "rao", y = "non.detectable.species..", 
+add = "reg.line",conf.int = TRUE, 
+cor.method = "spearman", xlab = "", ylab = "",palette = c("#C27CD3", "#FDBF6F"))+
+geom_point(aes(size = 7,alpha = 0.2,color = management))+theme(axis.text.y = element_text(size = 20),axis.text.x = element_text(size = 20),
+axis.title.y = element_text(size = 20),axis.title.x = element_text(size = 20))+theme_bw() +
+theme(axis.text.y = element_text(size = 20),legend.position="none",axis.text.x = element_text(size = 20),
+axis.title.y = element_text(size = 30),axis.title.x = element_text(size = 30))+ stat_cor(label.x.npc="right", 
+label.y.npc="top", hjust=1, size = 20,show.legend = FALSE)+ guides(color = FALSE, size = FALSE)
+
+fig_6_9 = ggscatter(plot, x = "skewness", y = "non.detectable.species..", 
+add = "reg.line",conf.int = TRUE, 
+cor.method = "pearson", xlab = "", ylab = "",palette = c("#C27CD3", "#FDBF6F"))+
+geom_point(aes(size = 7,alpha = 0.2,color = management))+theme(axis.text.y = element_text(size = 20),axis.text.x = element_text(size = 20),
+axis.title.y = element_text(size = 20),axis.title.x = element_text(size = 20))+theme_bw() +
+theme(axis.text.y = element_text(size = 20),legend.position="none",axis.text.x = element_text(size = 20),
+axis.title.y = element_text(size = 30),axis.title.x = element_text(size = 30))+ stat_cor(label.x.npc="right", 
+label.y.npc="top", hjust=1, size = 20,show.legend = FALSE)+ guides(color = FALSE, size = FALSE)
+
+fig_6_10 = ggscatter(field, x = "skewness", y = "non.detectable.species..", 
+add = "reg.line",conf.int = TRUE, 
+cor.method = "pearson", xlab = "", ylab = "",palette = c("#C27CD3", "#FDBF6F"))+
+geom_point(aes(size = 7,alpha = 0.2,color = management))+theme(axis.text.y = element_text(size = 20),axis.text.x = element_text(size = 20),
+axis.title.y = element_text(size = 20),axis.title.x = element_text(size = 20))+theme_bw() +
+theme(axis.text.y = element_text(size = 20),legend.position="none",axis.text.x = element_text(size = 20),
+axis.title.y = element_text(size = 30),axis.title.x = element_text(size = 30))+ stat_cor(label.x.npc="right", 
+label.y.npc="top", hjust=1, size = 20,show.legend = FALSE)+ guides(color = FALSE, size = FALSE)
+
+fig_6_11 = ggscatter(m_40, x = "skewness", y = "non.detectable.species..", 
+add = "reg.line",conf.int = TRUE, 
+cor.method = "pearson", xlab = "", ylab = "",palette = c("#C27CD3", "#FDBF6F"))+
+geom_point(aes(size = 7,alpha = 0.2,color = management))+theme(axis.text.y = element_text(size = 20),axis.text.x = element_text(size = 20),
+axis.title.y = element_text(size = 20),axis.title.x = element_text(size = 20))+theme_bw() +
+theme(axis.text.y = element_text(size = 20),legend.position="none",axis.text.x = element_text(size = 20),
+axis.title.y = element_text(size = 30),axis.title.x = element_text(size = 30))+ stat_cor(label.x.npc="right", 
+label.y.npc="top", hjust=1, size = 20,show.legend = FALSE)+ guides(color = FALSE, size = FALSE)
+
+fig_6_12 = ggscatter(extensive, x = "skewness", y = "non.detectable.species..", 
+add = "reg.line",conf.int = TRUE, 
+cor.method = "pearson", xlab = "", ylab = "",palette = c("#C27CD3", "#FDBF6F"))+
+geom_point(aes(size = 7,alpha = 0.2,color = management))+theme(axis.text.y = element_text(size = 20),axis.text.x = element_text(size = 20),
+axis.title.y = element_text(size = 20),axis.title.x = element_text(size = 20))+theme_bw() +
+theme(axis.text.y = element_text(size = 20),legend.position="none",axis.text.x = element_text(size = 20),
+axis.title.y = element_text(size = 30),axis.title.x = element_text(size = 30))+ stat_cor(label.x.npc="right", 
+label.y.npc="top", hjust=1, size = 20,show.legend = FALSE)+ guides(color = FALSE, size = FALSE)
+
+fig_6_13 = ggscatter(plot, x = "kurtosis", y = "non.detectable.species..", 
+add = "reg.line",conf.int = TRUE, 
+cor.method = "spearman", xlab = "", ylab = "",palette = c("#C27CD3", "#FDBF6F"))+
+geom_point(aes(size = 7,alpha = 0.2,color = management))+theme(axis.text.y = element_text(size = 20),axis.text.x = element_text(size = 20),
+axis.title.y = element_text(size = 20),axis.title.x = element_text(size = 20))+theme_bw() +
+theme(axis.text.y = element_text(size = 20),legend.position="none",axis.text.x = element_text(size = 20),
+axis.title.y = element_text(size = 30),axis.title.x = element_text(size = 30))+ stat_cor(label.x.npc="right", 
+label.y.npc="top", hjust=1, size = 20,show.legend = FALSE)+ guides(color = FALSE, size = FALSE)
+
+fig_6_14 = ggscatter(field, x = "kurtosis", y = "non.detectable.species..", 
+add = "reg.line",conf.int = TRUE, 
+cor.method = "pearson", xlab = "", ylab = "",palette = c("#C27CD3", "#FDBF6F"))+
+geom_point(aes(size = 7,alpha = 0.2,color = management))+theme(axis.text.y = element_text(size = 20),axis.text.x = element_text(size = 20),
+axis.title.y = element_text(size = 20),axis.title.x = element_text(size = 20))+theme_bw() +
+theme(axis.text.y = element_text(size = 20),legend.position="none",axis.text.x = element_text(size = 20),
+axis.title.y = element_text(size = 30),axis.title.x = element_text(size = 30))+ stat_cor(label.x.npc="right", 
+label.y.npc="top", hjust=1, size = 20,show.legend = FALSE)+ guides(color = FALSE, size = FALSE)
+
+fig_6_15 = ggscatter(m_40, x = "kurtosis", y = "non.detectable.species..", 
+add = "reg.line",conf.int = TRUE, 
+cor.method = "spearman", xlab = "", ylab = "",palette = c("#C27CD3", "#FDBF6F"))+
+geom_point(aes(size = 7,alpha = 0.2,color = management))+theme(axis.text.y = element_text(size = 20),axis.text.x = element_text(size = 20),
+axis.title.y = element_text(size = 20),axis.title.x = element_text(size = 20))+theme_bw() +
+theme(axis.text.y = element_text(size = 20),legend.position="none",axis.text.x = element_text(size = 20),
+axis.title.y = element_text(size = 30),axis.title.x = element_text(size = 30))+ stat_cor(label.x.npc="right", 
+label.y.npc="top", hjust=1, size = 20,show.legend = FALSE)+ guides(color = FALSE, size = FALSE)
+
+fig_6_16 = ggscatter(extensive, x = "kurtosis", y = "non.detectable.species..", 
+add = "reg.line",conf.int = TRUE, 
+cor.method = "pearson", xlab = "", ylab = "",palette = c("#C27CD3", "#FDBF6F"))+
+geom_point(aes(size = 7,alpha = 0.2,color = management))+theme(axis.text.y = element_text(size = 20),axis.text.x = element_text(size = 20),
+axis.title.y = element_text(size = 20),axis.title.x = element_text(size = 20))+theme_bw() +
+theme(axis.text.y = element_text(size = 20),legend.position="none",axis.text.x = element_text(size = 20),
+axis.title.y = element_text(size = 30),axis.title.x = element_text(size = 30))+ stat_cor(label.x.npc="right", 
+label.y.npc="top", hjust=1, size = 20,show.legend = FALSE)+ guides(color = FALSE, size = FALSE)
 
 ggsave("Figure6b_1.png", fig_6_1, dpi = 900, width = 9, height = 6)
 ggsave("Figure6b_2.png", fig_6_2, dpi = 900, width = 9, height = 6)
 ggsave("Figure6b_3.png", fig_6_3, dpi = 900, width = 9, height = 6)
 ggsave("Figure6b_4.png", fig_6_4, dpi = 900, width = 9, height = 6)
+ggsave("Figure6b_5.png", fig_6_5, dpi = 900, width = 9, height = 6)
+ggsave("Figure6b_6.png", fig_6_6, dpi = 900, width = 9, height = 6)
+ggsave("Figure6b_7.png", fig_6_7, dpi = 900, width = 9, height = 6)
+ggsave("Figure6b_8.png", fig_6_8, dpi = 900, width = 9, height = 6)
+ggsave("Figure6b_9.png", fig_6_9, dpi = 900, width = 9, height = 6)
+ggsave("Figure6b_10.png", fig_6_10, dpi = 900, width = 9, height = 6)
+ggsave("Figure6b_11.png", fig_6_11, dpi = 900, width = 9, height = 6)
+ggsave("Figure6b_12.png", fig_6_12, dpi = 900, width = 9, height = 6)
+ggsave("Figure6b_13.png", fig_6_13, dpi = 900, width = 9, height = 6)
+ggsave("Figure6b_14.png", fig_6_14, dpi = 900, width = 9, height = 6)
+ggsave("Figure6b_15.png", fig_6_15, dpi = 900, width = 9, height = 6)
+ggsave("Figure6b_16.png", fig_6_16, dpi = 900, width = 9, height = 6)
 
 # power analysis:
 r <- 0.6
@@ -814,7 +949,7 @@ db = db[,c(2,8:9)]
 
 # plot
 cols <- c("no" = "gray89", "yes" = "pink1")
-db$group = vec_rep_each(1:3, c(45, 45, 47))
+db$group = vec_rep_each(1:3, c(45, 45, 44))
 
 heat_map = ggplot(data =  db, aes(x = key.indicator,
 y=formula, fill = as.factor(class))) + geom_tile(color='black') +
