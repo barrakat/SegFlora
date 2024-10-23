@@ -98,9 +98,9 @@ How to cite this work:
 
 ```
 @article{BarrassoC.,
-  title={Mapping indicator species of segetal flora in arable land using UAV imagery and deep learning},
+  title={Mapping indicator species of segetal flora for result-based payments in arable land using UAV imagery and deep learning},
   author={Caterina Barrasso, Robert Krüger, Anette Eltner, Anna F. Cord},
-  journal={under review},
+  journal={Ecological Indicators, under review},
   year={}
 }
 ```
