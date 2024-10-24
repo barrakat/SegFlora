@@ -24,7 +24,7 @@
 ---
 
 ## 📘 Overview
-This repository contains code to reproduce the analyses presented in the publication *"Mapping indicator species of segetal flora for result-based payments in arable land using UAV imagery and deep learning*". In this study, we conducted multiple UAV flights in an arable area in Germany with winter barley grown as main crop under different management intensities. The objective was to develop an affordable monitoring system to facilitate the implementation of result-based payments in arable land, thereby contributing to the conservation of segetal flora species. The study investigates species detectability and ground sampling distance trade-offs to effectively monitor segetal flora using an off-the-shelf UAV-based RGB camera and the YOLO deep learning architecture. Data and trained YOLO models per species can be found in [zenodo](https://zenodo.org/records/13325668). The 'code folder' in [here](https://github.com/barrakat/SegFlora/blob/main/code) contains scripts to: i) segment detectable segetal flora species, e.g. `Centaurea_cyanus_prediction.py`, ii) calculate YOLO segmentation accuracy `segmentation_accuracy.py`, iii) reproduce the analyses of the publication `analysis.R`.
+This repository contains code to reproduce the analyses presented in the publication *"Mapping indicator species of segetal flora for result-based payments in arable land using UAV imagery and deep learning*". In this study, we conducted multiple UAV flights in an arable area in Germany with winter barley grown as main crop under different management intensities. The objective was to develop an affordable monitoring system to facilitate the implementation of result-based payments in arable land, thereby contributing to the conservation of segetal flora species. The study investigates species detectability and ground sampling distance trade-offs to effectively monitor segetal flora using an off-the-shelf UAV-based RGB camera and the YOLO deep learning architecture. Data and trained YOLO models per species can be found in [zenodo](https://zenodo.org/records/13983340). The 'code folder' in [here](https://github.com/barrakat/SegFlora/blob/main/code) contains scripts to: i) segment detectable segetal flora species, e.g. `Centaurea_cyanus_prediction.py`, ii) calculate YOLO segmentation accuracy `segmentation_accuracy.py`, iii) reproduce the analyses of the publication `analysis.R`.
 
 <p align="center">
     <img src="https://github.com/barrakat/SegFlora/blob/main/figures/Figure_1.png" width="800"/><br/>
@@ -65,7 +65,7 @@ The following figure shows the RGB images captured above one test plots at 3 dif
     <img src="https://github.com/barrakat/SegFlora/blob/main/figures/Figure_2.png" width="1000"/><br/>
 </p>
 
-The released models per species in [zenodo](https://zenodo.org/records/13325668) were trained based on the number of instances shown below:
+The released models per species in [zenodo](https://zenodo.org/records/13983340) were trained based on the number of instances shown below:
 
 <p align="center">
     <img src="https://github.com/barrakat/SegFlora/blob/main/figures/Figure_3.png" width="1000"/><br/>
