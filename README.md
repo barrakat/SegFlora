@@ -3,7 +3,7 @@
 
 **Caterina Barrasso**<sup>1,2</sup> · **Robert Krüger**<sup>3</sup> · **Anette Eltner**<sup>3</sup> · **Anna Cord**<sup>1,2,4</sup>
 
-<sup>1</sup>Chair of Computational Landscape Ecology, TUD;&emsp;&emsp;&emsp;<sup>2</sup>ScaDS.AI;&emsp;&emsp;&emsp;
+<sup>1</sup>Chair of Computational Landscape Ecology, TUD;&emsp;&emsp;&emsp;<sup>2</sup>ScaDS.AI Dresden/Leipzig;&emsp;&emsp;&emsp;
 <sup>3</sup>Juniorprofessorship in Geosensor Systems, TUD;&emsp;&emsp;&emsp;<sup>4</sup>Agro-Ecological Modeling Group, University of Bonn
 
 [![Ecological Indicators](https://img.shields.io/badge/Ecological%20Indicators-10.1016%2Fj.ecolind.2024.112780-BD3094)](https://doi.org/10.1016/j.ecolind.2024.112780)
