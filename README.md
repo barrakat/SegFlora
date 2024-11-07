@@ -102,8 +102,10 @@ How to cite this work:
 @article{BarrassoC.,
   title={Mapping indicator species of segetal flora for result-based payments in arable land using UAV imagery and deep learning},
   author={Caterina Barrasso, Robert Krüger, Anette Eltner, Anna F. Cord},
-  journal={Ecological Indicators, under review},
-  year={}
+  journal={Ecological Indicators},
+  volume={169},
+  url={https://doi.org/10.1016/j.ecolind.2024.112780},
+  year={2024}
 }
 ```
 
