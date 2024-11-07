@@ -7,8 +7,7 @@
 <sup>3</sup>Juniorprofessorship in Geosensor Systems, TUD;&emsp;&emsp;&emsp;<sup>4</sup>Agro-Ecological Modeling Group, University of Bonn
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13983340.svg)](https://zenodo.org/records/13983340)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13983340.svg)](https://doi.org/10.1016/j.ecolind.2024.112780)
-
+[![DOI Ecological Indicators](https://img.shields.io/badge/https%3A%2F%2Fdoi.org%2F10.1016%2Fj.ecolind.2024.112780)](https://doi.org/10.1016/j.ecolind.2024.112780)
 </div>
 <p align="center">
 <img src="https://github.com/barrakat/SegFlora/blob/main/figures/logo.png" width="800"/>
