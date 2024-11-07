@@ -7,7 +7,7 @@
 <sup>3</sup>Juniorprofessorship in Geosensor Systems, TUD;&emsp;&emsp;&emsp;<sup>4</sup>Agro-Ecological Modeling Group, University of Bonn
 
 [![Ecological Indicators](https://img.shields.io/badge/Ecological%20Indicators-10.1016%2Fj.ecolind.2024.112780-BD3094)](https://doi.org/10.1016/j.ecolind.2024.112780)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13983340.svg)](https://zenodo.org/records/13983340)
+[![ZENODO](https://zenodo.org/badge/DOI/10.5281/zenodo.13983340.svg)](https://zenodo.org/records/13983340)
 
 </div>
 <p align="center">
