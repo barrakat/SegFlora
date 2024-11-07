@@ -8,6 +8,7 @@
 
 [![DOI](https://zenodo.org/badge/639127835.svg)](https://zenodo.org/records/13983340)
 [![DOI](https://zenodo.org/badge/639127835.svg)](https://doi.org/10.1016/j.ecolind.2024.112780)
+
 </div>
 <p align="center">
 <img src="https://github.com/barrakat/SegFlora/blob/main/figures/logo.png" width="800"/>
